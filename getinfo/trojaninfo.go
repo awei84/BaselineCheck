@@ -147,6 +147,6 @@ func GetTrojanInfo(resGet *ResTrojanInfo, stj SingleTrojanInfo) {
 	stj.Action = "执行ps -ef检测系统中是否存在挖矿进程"
 	stj.Protect = "执行ps -ef命令查看异常进程，然后配合查看last和日志等确认攻击入侵方式进行定位"
 	resGet.TrojanInfo = append(resGet.TrojanInfo, stj)
-	fmt.Println("[2/4] LightHouse-Baseline trojanInfo data check finished!")
+	fmt.Println("[2/4] Baseline trojanInfo data check finished!")
 
 }

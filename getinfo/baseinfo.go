@@ -110,5 +110,5 @@ func (b *BaseInfo) GetBaseInfo() {
 	b.DiskUsage = comm.GetCmdRes(cmdDiskUsage)
 	b.PlatformVersion = "V1.3C00413P"
 	b.PlatformNorm = "CIS基线配置规范(Linux)"
-	fmt.Println("[1/4] LightHouse-Baseline baseInfo data check finished!")
+	fmt.Println("[1/4] Baseline baseInfo data check finished!")
 }

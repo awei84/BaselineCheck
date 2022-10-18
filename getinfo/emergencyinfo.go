@@ -54,5 +54,5 @@ func (g *EmergencyInfo) GetEmergencyInfo() {
 	g.Configcrontab = comm.GetCmdRes(`crontab  -l`)
 	g.Logmessages = comm.GetCmdRes(`cat /var/log/messages |head -40`)
 	g.Logrsyslog = comm.GetCmdRes(`cat /etc/rsyslog.conf | grep -Ev "#|^$"`)
-	fmt.Println("[3/4] LightHouse-Baseline emergencyInfo data check finished!")
+	fmt.Println("[3/4] Baseline emergencyInfo data check finished!")
 }
